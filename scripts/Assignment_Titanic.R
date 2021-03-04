@@ -68,3 +68,6 @@ View(T_data)
 save(T_data, file= 'T_data')
 
 write.table (T_data, file = 'T_data.csv')
+
+library(usethis)
+use_git()
